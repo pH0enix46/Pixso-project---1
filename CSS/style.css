@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+}
+
+/* REUSABLE✅✅✅ */
+.btn {
+  padding: 1.2rem 1.4rem;
+  font-family: "Rubik";
+  color: rgba(246, 238, 3, 0.6);
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0.75px;
+  text-align: center;
+  border-radius: 1.5rem;
+  background: rgba(83, 195, 3, 0.6);
+  border: none;
+}
+
+.btn:hover {
+  background: rgba(83, 195, 3, 0.4);
+  cursor: pointer;
+}
+/* ⛔⛔⛔ */
+
+/* HERO✅✅✅ */
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(
+      360deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url(../INTERFACE/assets/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero__content {
+  color: white;
+  max-width: 80rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero__content-subtitle {
+  color: rgba(195, 179, 3, 0.8);
+  font-family: "Rubik";
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.8rem;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: -1rem;
+}
+
+.hero__content-title {
+  color: rgb(255, 255, 255);
+  font-family: "Rubik";
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.75px;
+  text-align: center;
+  margin-bottom: -1rem;
+}
+
+.hero__content-description {
+  color: rgb(255, 255, 255);
+  font-family: "Rubik";
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.75px;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+  max-width: 60rem;
+  align-self: center;
+}
+
+.hero__content-btn {
+  text-align: center;
+}
+/* ⛔⛔⛔ */
+
+/* CARD BOX✅✅✅ */
+.card-box {
+  background-color: rgba(208, 208, 208, 0.8);
+}
+.card-box__content {
+  padding: 8rem 0;
+  margin: 0 auto;
+  max-width: 90rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-box--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.card-box__content-title {
+  color: rgba(16, 16, 16, 0.8);
+  font-family: "Rubik";
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.75px;
+}
+
+.card-box__content-subtitle {
+  color: rgb(16, 16, 16);
+  font-family: "Rubik";
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  opacity: 0.6;
+}
+
+.card-box__crad {
+  display: flex;
+  gap: 4rem;
+}
+
+.card__img {
+  width: 20rem;
+}
+
+.card-box__div {
+  max-width: 20rem;
+  box-shadow: 2.4rem 2.4rem 4.8rem rgba(0, 0, 0, 0.5) inset;
+  border-radius: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.card--content {
+  padding: 0.5rem 0 4.6rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background-color: rgba(195, 179, 3, 0.4);
+  border-radius: 1rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.card__brand-name {
+  color: rgb(16, 16, 16);
+  font-family: "Rubik";
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  opacity: 0.6;
+  padding: 0.5rem;
+  background-color: green;
+  border-radius: 1rem;
+  align-self: center;
+  margin-top: 0.5rem;
+}
+
+.card__offer {
+  color: rgb(3, 95, 7);
+  font-family: "Rubik";
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  opacity: 0.6;
+}
+
+.card__text {
+  color: rgb(80, 81, 80);
+  font-family: "Rubik";
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  opacity: 0.8;
+  padding: 1rem 2rem;
+}
+
+.card--btn {
+  margin-top: 2rem;
+}
+
+.card--btn button {
+  background-color: rgba(0, 128, 90, 0.8);
+  color: rgba(228, 209, 7, 0.8);
+}
+
+.card--btn button:hover {
+  background-color: rgba(0, 128, 0, 0.6);
+}
+/* ⛔⛔⛔ */
+
+/* FOOTER✅✅✅ */
+.footer {
+  background-image: linear-gradient(
+      rgba(117, 150, 155, 0.6),
+      rgba(111, 144, 117, 0.6)
+    ),
+    url(../INTERFACE/assets/foods.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__content {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 9.6rem 6rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__content--header {
+  color: rgba(16, 16, 16, 0.8);
+  font-family: "Rubik";
+  font-size: 2.6rem;
+  font-weight: 600;
+  letter-spacing: -0.75px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.footer__content--more {
+  color: rgb(16, 16, 16);
+  font-family: "Rubik";
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  opacity: 0.6;
+  margin-bottom: 3.6rem;
+}
+
+.footer__content--more2 {
+  color: rgba(187, 228, 6, 0.6);
+  text-shadow: 0.5px 1px 6px rgba(0, 0, 0, 0.6);
+  font-family: "Rubik";
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  margin-bottom: 2.4rem;
+}
+
+.follow-us {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  font-size: 2rem;
+  background-color: rgba(188, 188, 188, 0.6);
+  color: rgba(0, 208, 255, 0.4);
+  border-radius: 50%;
+  padding: 0.4rem;
+  transition: all 0.4s;
+  border: 1px solid rgba(11, 115, 133, 0.8);
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: rgba(143, 143, 143, 0.4);
+  scale: 1.1;
+}
+
+.youtube-icon {
+  color: rgba(153, 7, 7, 0.6);
+}
+
+.facebook-icon {
+  color: rgba(5, 65, 233, 0.8);
+}
+
+.twitter-icon {
+  color: rgba(22, 143, 190, 08);
+}
+/* ⛔⛔⛔ */
